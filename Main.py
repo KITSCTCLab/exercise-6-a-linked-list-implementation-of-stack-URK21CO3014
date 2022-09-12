@@ -14,7 +14,7 @@ class Queue:
   """
   Class implementing Queue as a LinkedList
   """
-  def _init_(self):
+  def __init__(self):
     """
     Initialises Queue object with pointers head and tail set to None
     """
